@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@700&display=swap');
+
+*{
+    font-family: Astloch;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: #624800;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+}
+
+.wand {
+    padding: 7%;
+    width: 70px;
+    color: white;
+}
+
+h1 {
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+}
+
+svg:not(.wand) {
+    width: 40px;
+    color: #624800;
+}
+
+.contain {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.combi {
+    display: flex;
+    width: 250px;
+}
+
+h2 {
+    padding-left: 5%;
+    font-size: 40px;
+    width: 100%;
+}
+
+h3 {
+    padding-left: 5%;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+h4 {
+    margin-top: -15px;
+    margin-bottom: 0;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+h5 {
+    padding-left: 5%;
+    font-size: 15px;
+}
+
+li {
+    margin-top: -10px;
+    padding-bottom: 4%;
+    font-size: 15px;
+}
+
+.list {
+    height: 100%;
+    width: 30%;
+    padding-left: 4%;
+}
+
+#l1 {
+    margin-right: -45px;
+    padding-right: 0%;
+    float: right;
+}
+
+#bg {
+    height: 90vh;
+    width: 90%;
+    background-image: url(./images/white_artisan.jpg.webp);
+    float: right;
+    overflow: hidden;
+    color: white;
+}
+
+#bg2 {
+    height: 90vh;
+    width: 30%;
+    background-image: url(./images/small_artisan.jpg.avif);
+}
+
+#bg3 {
+    height: 100vh; 
+    width: 100%;
+    background-image: url(./images/full_artisan.jpg.webp);
+    color: white;
+}
+
+footer {
+    padding-top: 2%;
+    height: 30%;
+    background-color: #624800;
+    color: white;
+}
